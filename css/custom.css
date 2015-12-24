@@ -1,0 +1,91 @@
+
+html, body {
+	margin: 0;
+    padding: 0;
+    height: 100%;
+	background-color:#cccccc;
+	font-size:16px;
+}
+
+h1 {
+	margin-bottom:30px;
+}
+
+h2 {
+	margin-bottom:20px;
+}
+
+.validation {
+	border:1px solid #ff0000;
+}
+
+.message {
+	background-color: #ECECEC;
+    margin-bottom: 20px;
+    padding:15px;
+}
+
+#wrapper {
+	min-height: 100%;
+    position: relative;
+}
+
+#content {
+	margin-top:50px;
+	padding-bottom:60px;
+}
+
+.navbar {
+	margin-bottom:0;
+}
+.nav>li, .nav>li>a {
+	display:inline-block;
+}
+
+.nav>li>a {
+	font-size:20px;
+	color:#fff;
+}
+
+span {
+	color: #48A24C;
+	font-size:12px;
+}
+
+.span {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.span span {
+	color:#000;
+}
+
+input[type="submit"] {
+	margin-top:20px;
+}
+
+input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom:15px;
+}
+
+textarea {
+	height:100px;
+}
+
+select {
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top:20px;
+}
